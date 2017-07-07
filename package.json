@@ -1,0 +1,27 @@
+{
+  "name": "webex-url-api",
+  "version": "1.0.0",
+  "description": "Cisco WebEx URL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bevalorous/webex-url-api.git"
+  },
+  "keywords": [
+    "webex",
+    "api",
+    "cisco"
+  ],
+  "author": "Vadim Belorussov <bevalorous@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevalorous/webex-url-api/issues"
+  },
+  "homepage": "https://github.com/bevalorous/webex-url-api#readme",
+  "engines": {
+    "node": ">=7.0.0"
+  }
+}
