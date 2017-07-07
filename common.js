@@ -1,7 +1,8 @@
 "use strict";
 
 module.exports = {
-    executeCommand: executeCommand
+    executeCommand: executeCommand,
+    webExHostedWebsite: webExHostedWebsite,
 };
 
 /**
@@ -42,4 +43,9 @@ function setParams(params) {
  */
 function apiRequest(params) {
     return Promise.resolve(params);
+}
+
+
+function webExHostedWebsite(yourWebExHostedName) {
+    this.webExHostedName = yourWebExHostedName;
 }
